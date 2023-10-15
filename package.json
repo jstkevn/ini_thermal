@@ -1,0 +1,34 @@
+{
+  "name": "mini-printer",
+  "version": "1.0.0",
+  "description": "A project to generate tickets using some libraries",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peckas13/mini-printer-js.git"
+  },
+  "keywords": [
+    "esc",
+    "pos",
+    "esc/pos",
+    "thermal-printer",
+    "printer",
+    "tickets"
+  ],
+  "author": "Alejandro Herrera <alex13pks@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/peckas13/mini-printer-js/issues"
+  },
+  "homepage": "https://github.com/peckas13/mini-printer-js#readme",
+  "dependencies": {
+    "escpos": "^3.0.0-alpha.6",
+    "escpos-network": "^3.0.0-alpha.5",
+    "escpos-usb": "^3.0.0-alpha.4",
+    "path": "^0.12.7",
+    "usb": "^1.9.0"
+  }
+}

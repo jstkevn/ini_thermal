@@ -1,0 +1,32 @@
+{
+    "totalItem": 3,
+    "orderID": "XAX001",
+    "pembayaran":"GoPay",
+    "pembayaranPrice": 914900,
+    "adminPrice": 5000,
+    "subTotalPrice": 909900,
+    "orderTotalPrice": 914900,
+    "produkList": [
+        {
+            "nama": "Celana Panjang",
+            "merk": "Cardinal",
+            "qty": 1,
+            "harga": 359900,
+            "hargaTotal": 3599000
+        },
+        {
+            "nama": "Mouse RGB",
+            "merk": "Asus",
+            "qty": 3,
+            "harga": 130000,
+            "hargaTotal": 390000
+        },
+        {
+            "nama": "Ikan Sarden",
+            "merk": "ABC",
+            "qty": 4,
+            "harga": 40000,
+            "hargaTotal": 160000
+        }
+]
+}
