@@ -30,7 +30,7 @@ escpos.Image.load(logo, function (image) {
           .align('ct')
           .size(2,2)
           .text('Perum, Jl. Sawitsari Jl.Bunga No.5-6, Pikgondeng, Condongcatur, Kec. Depok, Kab. Sleman, D.I.Yogyakarta (55281)');
-          printer
+        printer
           .font('A')
           .style('NORMAL')
           .size(0,0)
@@ -55,12 +55,12 @@ escpos.Image.load(logo, function (image) {
           .text('--------------------------------');
           for (let i = 0; i <item; i++) {
             printer
-            .text(data.produkList[i].merk+'-'+data.produkList[i].nama)
-            .tableCustom([
-              { text: data.produkList[i].qty+'x', align: 'LEFT', width: 0.1 },
-              { text: '@'+data.produkList[i].harga, align: 'RIGHT', width: 0.3 },
-              { text: data.produkList[i].hargaTotal, align: 'RIGHT', width: 0.3 }
-            ]);
+              .text(data.produkList[i].merk+'-'+data.produkList[i].nama)
+              .tableCustom([
+                { text: data.produkList[i].qty+'x', align: 'LEFT', width: 0.1 },
+                { text: '@'+data.produkList[i].harga, align: 'RIGHT', width: 0.3 },
+                { text: data.produkList[i].hargaTotal, align: 'RIGHT', width: 0.3 }
+              ]);
           }
           printer
             .text('--------------------------------')
